@@ -7,7 +7,7 @@ const showInfo = () => {
         ? document.querySelector("#user_value").style.textTransform = "lowercase"
         : document.querySelector("#user_value").style.textTransform = "capitalize";
 
-    const getCampos = [...document.querySelectorAll("li")];
+    const getCampos = [...document.querySelectorAll("#values_list > li")];
 
     getCampos.map(el => {
         el.addEventListener("mouseover", e => {
