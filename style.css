@@ -360,7 +360,7 @@ ul.skill-set {
     bottom: 0;
     left: 0;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     transition: transform 0.2s;
 }
 
@@ -431,6 +431,9 @@ ul.skill-set {
     border-radius: 3px;
 }
 
+.read-more>a {
+    text-decoration: none;
+}
 
 @media (min-width: 640px) {
     .blog-card {
@@ -439,7 +442,7 @@ ul.skill-set {
     }
 
     .blog-card .meta {
-        flex-basis: 40%;
+        flex-basis: 45%;
         height: auto;
     }
 
