@@ -17,6 +17,38 @@ img {
     border: 0;
 }
 
+footer {
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 0px 0px 5px 5px;
+    overflow: hidden;
+    text-align: center;
+    z-index: 5;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.img {
+    text-align: center;
+    width: 32px;
+}
+
 .horizontal_center {
     position: relative;
     left: 50%;
@@ -76,6 +108,7 @@ img {
     font-size: 33px;
     margin: 5px;
     text-transform: capitalize;
+    line-height: 1;
 }
 
 .values_list {
@@ -157,7 +190,6 @@ main {
     margin: 0 auto;
     background: #fff;
     margin-top: 10px;
-    border-radius: 0px 0px 5px 5px;
 }
 
 section {
