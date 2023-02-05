@@ -147,7 +147,7 @@ footer {
     height: 48px;
     float: left;
     margin: 20px;
-    background-image: url(../img/card_icons.png);
+    background-image: url(img/card_icons.png);
     background-size: 378px;
     background-position-y: -48px;
     transition: all 0.25s ease-out;
