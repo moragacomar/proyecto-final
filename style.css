@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Ubuntu:300,400,500";
-@import "https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css";
+@import "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
 body {
     color: #2c2e31;
@@ -36,7 +36,8 @@ footer {
 }
 
 .footer>p {
-    margin: 0;
+    margin: 3px;
+    text-align: center;
 }
 
 .footer>p>a:link a:hover a:active a:visited {
@@ -238,19 +239,19 @@ label:before {
 }
 
 label[for*='1']:before {
-    content: '\f1cb';
+    content: '\f007';
 }
 
 label[for*='2']:before {
-    content: '\f17d';
+    content: '\f19d';
 }
 
 label[for*='3']:before {
-    content: '\f16b';
+    content: '\f121';
 }
 
 label[for*='4']:before {
-    content: '\f1a9';
+    content: '\f0b1';
 }
 
 label:hover {
